@@ -1,0 +1,217 @@
+#tab {
+    border: 3px solid black;
+    text-align: center;
+width:40%; 
+    margin-left:0%; 
+    margin-right:60%;
+}
+#tab td{
+    border: 2px solid black;
+
+    padding: 8px;
+    text-align:center;
+} 
+#tab th{
+
+    background-color: #A9A9A9;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+body
+{
+    background-color:#404040;
+    font-style:italic;
+    
+}
+
+
+/* kontener */
+#container
+{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    
+}   
+
+/*    logo    */    
+#logo
+{
+        color: white;
+        margin-top: 20px;
+        font-size: 44px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        text-align: center;
+    
+}
+
+    /* ------------------------    MENU -------------------------------*/
+#menu
+    {
+        
+        background-color: #303030;
+        margin-top: 20px;
+        color: white;
+        padding: 10px;     
+        
+    }
+.option
+{
+    text-align: center;
+    float:left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px dotted #444444;
+    opacity: 0.8;
+}
+.option:hover
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+    
+/* ----------------------   SIDEBAR   ----------------------- */
+
+#sidebar
+{
+    background-color: lightblue;
+    float: left;
+    padding: 10px;
+    width: 118px;
+    min-height: 620px;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #000000;
+}
+
+.optionL
+{
+    font-size: 18px;
+    height: 50px;
+    padding: 10px;
+    border-bottom: 2px solid #444444;
+   
+}
+.optionL:hover
+{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ----------------------   CONTENT  ----------------------- */
+#content
+{
+       
+    float: left;
+    background-color: aliceblue;
+    min-height: 600px;
+    padding: 20px;
+    width: 640px;
+    text-align: justify;
+   
+}
+
+
+ /* ----------------------   APLETPR  ----------------------- */   
+#apletpr
+    {
+        float: left;
+        background-color: lightblue;
+        padding: 10px;
+        width: 160px;
+        min-height: 620px;
+    }
+    
+ /* ----------------------   fOOTER  ----------------------- */   
+
+#footer
+{
+    clear: both;
+    color: white;
+    text-align: center;   
+    padding: 18px;
+    font-size: 18px;
+}
+
+/*------------------ TYTUŁY ------------------------ */
+
+.bigtitle
+{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  
+}
+/* linia pomiedzy nagłowkiem a tekstem */
+
+.dottedline
+{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #444444;
+    
+}
+
+/*--------linki----------*/
+a:link
+{
+    
+    color: red;
+     text-decoration: none;
+}
+
+a:visited
+{  
+    color: red;
+    text-decoration: none;
+    
+}
+
+a:hover
+{
+    
+    color: white;
+    text-decoration: none;
+}
+/*
+a.tilelink
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    min-width: 50px;
+    height: 25px;
+}   */
+
+
+/* ----------------------------------- LOGOWANIE ! -------------------- */
+#panel {
+
+width: 250px; 
+  
+margin: auto; 
+padding: 15px 0 0;
+background: #fff;
+border: 2px solid silver;
+font: 16px calibri;
+letter-spacing: 1px;
+box-shadow: 0 0 2px silver; 
+box-shadow: 0 0 2px silver; 
+box-shadow: 0 0 2px silver;
+}
+
+
+
+
+
+
